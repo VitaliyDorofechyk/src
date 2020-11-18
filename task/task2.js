@@ -5,7 +5,7 @@ const writeNumbers = (x, y) => {
             document.write(num);
             document.write("<br/>");
         }
-    } else (x < y);
+    } else if (x < y);
         let num = (x -1);
         while(num++ < y) {
             document.write(num);
