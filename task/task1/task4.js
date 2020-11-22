@@ -1,5 +1,5 @@
 const convertFloor = (floor) => {
-    if ( floor >= 0 && floor < 13) {
+    if (floor >= 0 && floor < 13) {
         return (floor + 1);
     }
         else if (floor < 0 || floor > 13) {
