@@ -1,9 +1,17 @@
-const task5 = (arr5) => {
-    arr5.map(element  => {
+
+const task5 = (arr) => {
+    return arr.reduce((acc, element) => {
         if ( typeof element === 'string') {
-            console.log(`${element[0].toUpperCase()}${element.slice(1)}`);
+            let firstLetter = element[0];
+            const newElement = element.replace(firstLetter, firstLetter.toUpperCase());
+            acc.push(newElement);
         }
-        else { element.remove};
-    });
+        else { 
+            element.remove
+        }
+        return acc;
+    },[]);
 };  
-task5([4, 'hi', 'my', 4, 'friend']);
+let arr5 = ['hi', 5, 'my', 3, 'frend'];
+console.log(task5(arr5));
+console.log(arr5);
