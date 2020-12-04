@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 130px;
+    background: linear-gradient(white,yellow);
+}
+
+.header_logo {
+    width: 110px;
+    height: 130px;
+    float: left;
+}
+
+.header_name {
+    padding: 15px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.nav {
+    text-align: center;
+    background-color: rgb(253, 253, 170);
+}
+
+.nav_menu_home, .nav_menu_news, .nav_menu_about, .nav_menu_photoGallery, .nav_menu_ourWork {                                    display: inline-block;
+    display: inline;
+    padding: 1em;
+    list-style-type: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(93, 74, 146);
+    font-size: large;
+}
+
+.nav_menu_podmenu {
+    position: absolute;
+    right: 25%;
+    width: 150px;
+    background-color: rgb(248, 248, 163);
+    display: none;
+    list-style-type: none;
+}
+
+.nav_menu_podmenu_ul_li {
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    border: 1px solid;
+}
