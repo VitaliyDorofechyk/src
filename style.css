@@ -25,7 +25,7 @@
     background-color: rgb(253, 253, 170);
 }
 
-.nav_menu_home, .nav_menu_news, .nav_menu_about, .nav_menu_photoGallery, .nav_menu_ourWork {                                    display: inline-block;
+.nav_menu_home, .nav_menu_news, .nav_menu_about, .nav_menu_photoGallery, .nav_menu_ourWork {                                    
     display: inline;
     padding: 1em;
     list-style-type: none;

@@ -8,7 +8,9 @@ let sum = 0;
 const createList = () => {
     do {
         let num = Number(prompt('Number?', '2'));
-        if (!Number(num)) { break;}
+        if (!num || isNaN(Number(num))) { 
+            break;
+        }
         else {
             sum += num;
             arr.push(sum);

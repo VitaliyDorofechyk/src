@@ -19,7 +19,7 @@ function nestingCheck () {
         return body.append(parentElem), parentElem.prepend(childElem);
     }
     else {
-        alert("Eror! блочный элемент нель вкладывать в строчный!");
+        alert("Eror! блочный элемент нельзя вкладывать в строчный!");
     }
 };
 nestingCheck();
