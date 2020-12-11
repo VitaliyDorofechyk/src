@@ -25,18 +25,68 @@
                 <li class="nav_menu_about"><a href="#">О нас</a></li>
                 <li class="nav_menu_photoGallery"><a href="#">Фотогалерея</a></li>
                 <li class="nav_menu_ourWork"><a href="#">Наши работы</a></li>
-                <div class="nav_menu_podmenu">
-                   <ul id="podmenu" class="nav_menu_podmenu_ul">
-                        <li class="nav_menu_podmenu_ul_li"><a href="#">1 Lesson</a></li>
-                        <li class="nav_menu_podmenu_ul_li"><a href="#">2 Lesson</a></li>
-                        <li class="nav_menu_podmenu_ul_li"><a href="#">3 Lesson</a></li>
+                <div class="nav_menu_submenu">
+                   <ul id="submenu" class="nav_menu_submenu_ul">
+                        <li class="nav_menu_submenu_ul_li"><a href="#">1 Lesson</a></li>
+                        <li class="nav_menu_submenu_ul_li"><a href="#">2 Lesson</a></li>
+                        <li class="nav_menu_submenu_ul_li"><a href="#">3 Lesson</a></li>
                     </ul>
                </div>                    
             </ul>
         </div>
     </nav>
     <article>
-        Основное содержимое сайта=)
+        <div id="slider">
+            <h2>Слайдер</h2>
+            <div id="photoGallery">
+                <h3>Герои мультфильмов.</h3>
+                <div class="photoGallery_photos">
+                    <img src="./image/1.png">
+                    <img src="./image/2.jpg">
+                    <img src="./image/3.jpg">
+                    <img src="./image/4.jpg">
+                    <img src="./image/5.jpg">
+                    <img src="./image/6.jpg">
+                </div>
+                <div class="photoGallery_buttons">
+                    <input type="button" value="Назад" class="prev">
+                    <input type="button" value="Вперед" class="next">
+                </div>
+            </div>
+        </div>
+        <div id="CalculatorRasxod">
+            <div class="containerMain">
+                <h2>Калькулятор расхода</h2>
+                <div class="diagram">
+                    <div class="doxodDiv">Доход</div>
+                    <div class="rasxodDiv">Расход</div>
+                    <div class="balans">Баланс</div>
+                    <div>Баланс:<span class="result"></span></div>
+                </div>
+                <form name="firstForm">
+                    <label>Введите даные</label></br>
+                    <input class="poleVvoda" type="text"></br>
+                    <label>Доход</label>
+                    <input class="doxod" type="radio">
+                    <label>Расход</label>
+                    <input class="rasxod" type="radio">
+                </form>
+            </div>
+        </div>
+        <div class="task2">
+            <h2>Для создания списка пользователей нашмите на кнопку </h2>
+            <input type="button" class="btnShowForm" value="Добавить пользователя">
+            <div class="containerForm">
+                <form name="formList" class="formOne">
+                    <label>Введите Ваше имя</label></br>
+                    <input type="text" class="inputName"></br>
+                    <label>Введите Ваш возраст</label></br>
+                    <input type="number" class="inputAge"></br>
+                    <input type="button" value="Добавить" class="btnAddElem">
+                    <input type="button" value="Отмена" class="btnCancel">
+                </form>
+            </div>
+        </div>
     </article>
 
 
@@ -57,7 +107,11 @@
 
     <script src="./task/task3/task1.js"></script>
     <script src="./task/task3/task2.js"></script>
-    <script src="./task/task3/task3.js"></script>-->
-    <script src="./task/task3/task4.js"></script>
+    <script src="./task/task3/task3.js"></script>
+    <script src="./task/task3/task4.js"></script>-->
+    <script src="./task/task3/task9.js"></script>
+
+    <script src="./task/task4/task1.js"></script>
+    <script src="./task/task4/task2.js"></script>
 </body>
 </html>
