@@ -1,5 +1,5 @@
 'use strict'
-const elemSubmenu = document.querySelector('.nav_menu_podmenu');
+const elemSubmenu = document.querySelector('.nav_menu_submenu');
 const elemNavMenu = document.querySelector('.nav');
 function dispOn () {
     elemSubmenu.style.display = 'block';
